@@ -1,4 +1,5 @@
-<?php
+<?php namespace WorkAssignmentLines;
+
 /*+**********************************************************************************
  * The contents of this file are subject to the vtiger CRM Public License Version 1.0
  * ("License"); You may not use this file except in compliance with the License
@@ -8,7 +9,7 @@
  * All Rights Reserved.
  ************************************************************************************/
 
-class createInventoryMutation extends VTEventHandler {
+class createInventoryMutation extends \VTEventHandler {
 	public function handleEvent($eventName, $entityData) {
 		// We don't check the modulename since this
 		// event is limited to WorkAssignmentLines already.

@@ -490,7 +490,7 @@
 	<events>
 		<event>
 			<eventname>vtiger.entity.aftersave</eventname>
-			<classname>createInventoryMutation</classname>
+			<classname>\WorkAssignmentLines\createInventoryMutation</classname>
 			<filename>modules/WorkAssignmentLines/createInventoryMutation.php</filename>
 			<condition>
 				<![CDATA[moduleName in ['WorkAssignmentLines']]]>
