@@ -47,9 +47,9 @@
 				CREATE TABLE `vtiger_workassignmentlines` (
 				`workassignmentlinesid` int(11) NOT NULL,
 				`workassignmentlines_no` varchar(56) default NULL,
-				`qty` INT(11) NOT NULL,
+				`qty` DECIMAL(28,3) NOT NULL,
 				`product` INT(11) NOT NULL,
-				`qtydelivered` INT(11) NOT NULL,
+				`qtydelivered` DECIMAL(28,3) NOT NULL,
 				`workassignment` INT(11) NOT NULL,
 				`seq` INT(11) NOT NULL,
 				`workshoplocation` VARCHAR(255) DEFAULT NULL,
